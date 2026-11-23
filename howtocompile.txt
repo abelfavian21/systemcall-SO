@@ -1,0 +1,4 @@
+gcc fork.c -o fork && ./fork
+gcc exec.c -o exec && ./exec /bin/ls ls
+gcc stat.c -o stat && ./stat namafile
+gcc dirlist.c -o dirlist && ./dirlist .
